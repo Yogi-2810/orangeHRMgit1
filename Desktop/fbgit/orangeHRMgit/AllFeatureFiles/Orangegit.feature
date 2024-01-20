@@ -12,3 +12,10 @@ When user click on PIM
 And  click on add employee
 And user enter firstname and lastname
 And click on save button
+
+Scenario: Check Employee Details
+
+When user is on PIM page
+And Click Add Employee 
+And Enter Creditionals of new Employee
+And Click on save Button
