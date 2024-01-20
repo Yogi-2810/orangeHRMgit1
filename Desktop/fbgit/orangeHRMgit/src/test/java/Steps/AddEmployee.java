@@ -20,7 +20,7 @@ public class AddEmployee extends BaseClass{
 
 	@When("Enter Creditionals of new Employee")
 	public void enter_creditionals_of_new_employee() {
-	    driver.findElement(By.name("firstName")).sendKeys("vaibhav");
+	    driver.findElement(By.name("firstName")).sendKeys("vishal");
 	    driver.findElement(By.name("lastName")).sendKeys("patil");
 		
 	}
